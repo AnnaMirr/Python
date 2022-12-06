@@ -3,8 +3,8 @@
 N = int(input('Enter number:  '))
 
 f = 1
-for i in range(N):
-    i = i + 1
+for i in range(1,N+1):
+    # i = i + 1
     f = i * f
     
     print(f, end = " ")

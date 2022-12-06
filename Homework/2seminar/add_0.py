@@ -20,3 +20,4 @@ for i in range(N-1,-1,-1):
     a[(N+M-1)-j] = a[i]
     j += 1
 print("Modified Array 2:\n",a)
+
